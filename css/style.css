@@ -1,6 +1,128 @@
+/*INDEX --------------------
+  - CSS RESET
+  - GENERAL HELPER CLASSES
+  - UNIVERSAL STYLES
+    - Layout
+    - Typography
+    - General Styles
+  - HEADER & FOOTER
+  - MODULAR ELEMENTS
+    - Element Name
+  - FORMS
+
+---------------------------
+Website Fonts: List fonts here for reference
+Website Colours: List colour hex codes here for reference
+----------------------------
+*/
+
 * {
    font-family: Arial;
    padding: 0;
-   margin: 0;
+   margin: 2%;
    box-sizing: border-box;
-   background-image: url("img/");
+   border: 2px solid darkgreen;
+}
+
+img{
+  max-width: 100%;
+}
+/* font styles for header and paragraph  */
+
+.logo img{
+width: 140px;
+}
+
+Body{
+  font-family: 'Raleway', sans-serif;
+  font-size:18px;
+  color: #4C4C4C;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  color: #4C4C4C;
+  padding: 2%;
+  }
+
+h1,h3{
+font-family: 'Indie Flower', cursive;
+font-size: 32px;
+padding: 0%;
+color:
+}
+h2{
+  font-family:'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+a{
+
+}
+
+i{
+
+
+}
+
+button{
+  font-family: 'Raleway', sans-serif;
+  padding:3%;
+  border: 2px solid black;
+  background: #FDFEFE;
+  display: block;
+  margin: auto;
+  transition:2s; /* color changes gradually */
+}
+
+button:hover{
+border: #C60657;
+color:#C60657;
+}
+
+header{
+
+}
+
+
+.rightpush{
+  padding-left: 10%;
+  }
+
+nav a{
+  color: black;
+  text-align: left;
+  font-size: 24px;
+  font-family: 'Indie Flower', cursive;
+}
+
+/* background image first  */
+.mainimage{
+  background-image: url('../img/pink.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 42% 0%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  min-height:90vh;
+  width:100%;
+  padding: 0 0 91.7px 0;
+  }
+
+.mainimage div{
+  background-color: rgba(236, 240,241, 0.5);
+  padding: 2%;
+  opacity: 0.5%;
+
+}
+
+/* about Us  */
+.about h2{
+
+}
+
+/* footer  */
+footer{
+
+}
