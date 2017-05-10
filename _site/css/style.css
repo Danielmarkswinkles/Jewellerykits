@@ -17,11 +17,14 @@ Website Colours: List colour hex codes here for reference
 */
 
 * {
-   font-family: Arial;
+   font-family: 'Raleway', sans-serif;
    padding: 0;
-   margin: 2%;
    box-sizing: border-box;
+    margin: 0;
+    /* font styles for header and paragraph
    border: 2px solid darkgreen;
+    */
+
 }
 
 img{
@@ -45,29 +48,71 @@ p{
   padding: 2%;
   }
 
-h1,h3{
+h1{
 font-family: 'Indie Flower', cursive;
 font-size: 32px;
-padding: 0%;
-color:
+padding: 2%;
+text-align: center;
 }
 h2{
+  font-family:'Indie Flower', cursive;
+  font-size: 45px;
+  text-align: center;
+}
+
+h3{
+  font-size: 25px;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  width: 90%;
+  padding: 2%;
+  }
+
+h4{
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive;
+  text-align:center;
+  color:#C60657;
+}
+
+h5 {
   font-family:'Raleway', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
+  text-align: center;
+}
+
+h6{
+  font-family:'Indie Flower', cursive;
+  font-size: 30px;
+  text-align: center;
+  }
+
+.subheading{
+  font-size:20px;
+  font-family:'Raleway', sans-serif;
+  text-align: center;
+  padding: 2%;
+}
+
+.center{
+  text-align: center;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 a{
-
 }
 
 i{
-
-
 }
 
 button{
   font-family: 'Raleway', sans-serif;
-  padding:3%;
+  padding:2%;
   border: 2px solid black;
   background: #FDFEFE;
   display: block;
@@ -76,14 +121,13 @@ button{
 }
 
 button:hover{
-border: #C60657;
+border: 2px solid #C60657;
 color:#C60657;
 }
 
-header{
-
+header,footer{
+  margin: 2%;
 }
-
 
 .rightpush{
   padding-left: 10%;
@@ -94,6 +138,8 @@ nav a{
   text-align: left;
   font-size: 24px;
   font-family: 'Indie Flower', cursive;
+  padding: 3%;
+  display: inline-block;
 }
 
 /* background image first  */
@@ -112,17 +158,127 @@ nav a{
 
 .mainimage div{
   background-color: rgba(236, 240,241, 0.5);
-  padding: 2%;
+  padding: 4%;
   opacity: 0.5%;
+}
+
+[class*=grid].course{
+  margin: 1% 7%;
+}
+
+.course p{
+  padding: 5%;
+}
+
+[class*=grid].included{
+  padding:2%;
+}
+
+.glam{
+  background-image: url('../img/Glitz.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  min-height:32vh;
+  padding: 2%;
+}
+
+.glam p{
+  text-align:center;
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+  padding:5%;
 
 }
 
-/* about Us  */
-.about h2{
+.trendy{
+    background-image: url('../img/Chique.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    min-height:30vh;
+    padding:2%;
+}
 
+.trendy p{
+  font-family: 'Raleway', sans-serif;
+  background-color: #FDFEFE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+.feminine{
+  background-image: url('../img/Boho.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  min-height:30vh;
+  padding: 2%;
+}
+
+.feminine p{
+  font-family: 'Raleway', sans-serif;
+  background-color: #FDFEFE;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5%;
+}
+
+.shop p{
+  text-align:center;
+}
+.included{
+  padding: 4%;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 /* footer  */
 footer{
+  text-align: center;
+}
+
+form{
+  padding: 5%;
+}
+
+/* our story section another page  */
+.ourstoryimage{
+background-image: url('../img/ourstory.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 42% 0%;
+justify-content: flex-end;
+min-height:90vh;
+width:100%;
+/*padding: 0 0 91.7px 0;*/
+}
+
+.ourstoryimage div{
+  border: black;
+  background-color: rgba(255,182,193,0.5);
+  right:0;
+  padding: 5%;
+  border-radius: 25px;
+  margin-right: 20%;
+  /*padding: 0 0 91.7px 0
+    rgba(236, 240,241, 0.5);
+    */
+}
+
+.ourstoryimage h1{
+  font-family: 'Indie Flower', cursive;
+  font-size: 55px;
+  text-align: center;
+}
+
+.oustory p{
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive;
 
 }
