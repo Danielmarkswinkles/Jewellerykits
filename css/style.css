@@ -23,7 +23,8 @@ Website Colours: List colour hex codes here for reference
     margin: 0;
     /* font styles for header and paragraph
    border: 2px solid darkgreen;
-    */
+   */
+
 
 }
 
@@ -117,13 +118,17 @@ button{
   background: #FDFEFE;
   display: block;
   margin: auto;
-  transition:2s; /* color changes gradually */
+  transition: color 2s, border 2s; /* color changes gradually */
 }
 
 button:hover{
 border: 2px solid #C60657;
 color:#C60657;
 }
+
+a:hover{
+  color:	#FF1493;
+  }
 
 header,footer{
   margin: 2%;
@@ -163,7 +168,7 @@ nav a{
 }
 
 [class*=grid].course{
-  margin: 1% 7%;
+  margin: 5% 7%;
 }
 
 .course p{
@@ -171,7 +176,8 @@ nav a{
 }
 
 [class*=grid].included{
-  padding:2%;
+  padding:0% 24%;
+  margin:32px;
 }
 
 .glam{
@@ -229,7 +235,14 @@ nav a{
 
 .shop p{
   text-align:center;
+  padding: 32px;
 }
+
+.shop h2{
+  padding:2px;
+}
+
+
 .included{
   padding: 4%;
   text-align: center;
@@ -241,31 +254,71 @@ nav a{
 /* footer  */
 footer{
   text-align: center;
+  background-color: #ECF0F1;
+}
+label, input{
+  display: block;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin: 2% auto;
+  width: 29.6rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid black;
+  background-color: #ECF0F1;
 }
 
-form{
+.submit{
+  font-family: 'Raleway', sans-serif;
+  border-bottom: none;
+  border-radius: 2%;
+  background-color: #ECF0F1;
+  padding: 1%;
+}
+
+.submit:hover{
+background-color: #DB7093;
+}
+
+.footer{
+  font-size: 24px;
+}
+
+
+.legal{
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
   padding: 5%;
+}
+
+.fa{
+  padding: 2%;
+  font-size: 30px;
 }
 
 /* our story section another page  */
 .ourstoryimage{
-background-image: url('../img/ourstory.jpg');
+background-image: url('../img/bluebeads.jpg');
+background-attachment: fixed;
 background-repeat: no-repeat;
 background-size: cover;
-background-position: 42% 0%;
+background-position: 16% 0%;
 justify-content: flex-end;
-min-height:90vh;
+min-height:80vh;
 width:100%;
 /*padding: 0 0 91.7px 0;*/
 }
 
 .ourstoryimage div{
   border: black;
-  background-color: rgba(255,182,193,0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   right:0;
-  padding: 5%;
+  padding: 2%;
   border-radius: 25px;
   margin-right: 20%;
+
   /*padding: 0 0 91.7px 0
     rgba(236, 240,241, 0.5);
     */
@@ -273,12 +326,69 @@ width:100%;
 
 .ourstoryimage h1{
   font-family: 'Indie Flower', cursive;
-  font-size: 55px;
+  font-size: 51px;
   text-align: center;
 }
 
-.oustory p{
-  font-size: 30px;
-  font-family: 'Indie Flower', cursive;
+.ourstory {
+padding: 2%;
+}
 
+.ourstory h2{
+  font-size: 45px;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  color: #666666;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-bottom-color: #666666;
+  width: 50%;
+  margin: 2% auto;
+}
+
+#popup {
+  position: fixed;
+  bottom: 0;
+  width: 45vw;
+  height: 55vh;
+  background-color: rgba(0,0,0,0.8);
+  text-align: left;
+  color: white;
+  padding: 2%;
+
+}
+
+.popuptext button{
+  margin: 10%;
+}
+
+.pop:hover{
+  background-color: #e36f80;
+  color: white;
+  }
+
+.popupimage img{
+
+  padding: 0%;
+  margin: 1%;
+  width: 125%;
+  display: flex;
+  align-items: center;
+}
+
+.popuptext h2{
+text-align: center;
+font-family: 'Raleway', sans-serif;
+padding: 5%;
+font-size: 20px;
+color:#ECF0F1;
+
+}
+.popuptext p{
+  font-family: 'Raleway', sans-serif;
+  color:#ECF0F1;
+  font-size: 16px;
+  padding: 6%;
+  margin-right: -7%;
+  text-align: center;
 }
