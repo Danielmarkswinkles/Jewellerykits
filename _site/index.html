@@ -5,7 +5,10 @@
   <script src="https://use.fontawesome.com/3fbdc1e752.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Raleway" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.3.1/gridlex.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 <body>
 <header class="grid-spaceBetween-middle">
@@ -28,8 +31,8 @@
       <h1>Jewellery making made easy!</h1>
       <p class="subheading">An easy step-by-step guide to create unique pieces.
       </p>
-      <button type="submit">GET STARTED</button>
-    </div>
+        <a href="#getstarted"><button type="submit">GET STARTED</button></a>
+   </div>
 </section>
 <section class="grid middle course">
     <div class="col-6">
@@ -48,43 +51,43 @@
 <div class="center">
   <img src="img/line.jpg">
 </div>
-   <h2>Get Creative</h2>
+   <h2 id="getstarted">Get Creative</h2>
    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
   We also have jewellery kids available for <a href="https://www.facebook.com/">
   kids.
- </a>
+</a>
 </p>
   <h2>Select your style</h2>
 <section class="grid-spaceBetween course">
   <div class= "col-3">
-    <div class="trendy flex-center">
+    <div class="trendy flex-bottom flex-center">
       <p> Trendy </p>
     </div>
-      <!--Trendy style-->
-  <h5>Trendy</h5>
+      <!--Trendy style
+  <h5>Trendy</h5>-->
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua.
   </p>
     <button type="submit">SUBSCRIBE</button>
 </div>
   <div class="col-3">
-  <div class="feminine flex-center">
+  <div class="feminine flex-bottom flex-center">
     <p>Feminine</p>
   </div>
-      <!--Feminine Style-->
-    <h5> Feminine </h5>
+      <!--Feminine Style
+    <h5> Feminine </h5>-->
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua.
   </p>
     <button type="submit">SUBSCRIBE</button></button>
 </div>
     <div class="col-3">
-      <div Class="glam flex-center">
+      <div Class="glam flex-bottom flex-center">
          <p>Glitz and Glam</p>
       </div>
-     <!--image of Glitz Style-->
-     <h5>Glitz and Glam</h5>
+     <!--image of Glitz Style
+     <h5>Glitz and Glam</h5>-->
      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
       eiusmod tempor incididunt ut labore et dolore magna aliqua.
     </p>
@@ -136,23 +139,6 @@
 <div class="center">
   <img src="img/line.jpg" />
 </div>
-<section class="grid-spaceBetween" id="popup">
-<div  class="col-5 popupimage">
-  <img src="img/pinkvase.jpg" />
-</div>
-<div class="col-6 popuptext">
-  <h2>Learn how to make Jewellery with our DIY kits</h2>
-  <p> To help you create unique jewellery pieces we have developed
-  a comprehensive guide on how you can do this in the comfort of your
-  own home.
-  <button class="pop"type="submit">DOWNLOAD A COURSE GUIDE</button>
-  </p>
-</div>
-
-</div>
-</section>
-</body>
-</html>
 
 
 <footer class="footer">
@@ -177,3 +163,25 @@
 </div>
 </footer>
 <hr />
+<section class="grid-spaceBetween" id="popup">
+  <div  class="col-5 popupimage">
+    <img src="img/pinkvase.jpg" />
+  </div>
+  <div class="col-6 popuptext">
+    <h2>Learn how to make Jewellery with our DIY kits</h2>
+    <p> To help you create unique jewellery pieces we have developed
+    a comprehensive guide on how you can do this in the comfort of your
+    own home.
+    <a href="img/Course.pdf" class="buttondesign"><button type="submit"> DOWNLOAD A COURSE GUIDE</button> </a>
+    </p>
+    <i class="fa fa-times getout" aria-hidden="true" onclick="hidePopup();"></i>
+  </div>
+</section>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="NTQ4NzFlMWItZWI0Yy00ZWI1LWE4NTgtNmFlN2NhODgxMThhNjM2MzAxNzAxMzgxMjQ1OTI1"></script>
+<script src='js/main.js'></script>
+
+
+</body>
+</html>

@@ -105,7 +105,15 @@ h6{
   align-items: center;
 }
 
+.flex-bottom{
+  display: flex;
+  align-items: flex-end;
+  padding: 5%;
+
+}
+
 a{
+  text-decoration: none;
 }
 
 i{
@@ -131,6 +139,7 @@ a:hover{
   }
 
 header,footer{
+
   margin: 2%;
 }
 
@@ -207,12 +216,16 @@ nav a{
 }
 
 .trendy p{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Indie Flower', cursive;
+  font-size: 22px;
+  border-radius: 2%;
   background-color: #FDFEFE;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   padding: 5%;
+  width:78%;
 }
 
 .feminine{
@@ -355,7 +368,19 @@ padding: 2%;
   text-align: left;
   color: white;
   padding: 2%;
+  display:none;
+}
 
+#popup i {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#popup i:hover{
+  color: pink;
 }
 
 .popuptext button{
@@ -366,6 +391,10 @@ padding: 2%;
   background-color: #e36f80;
   color: white;
   }
+
+.bottondesign{
+  text-decoration: none;
+}
 
 .popupimage img{
 
