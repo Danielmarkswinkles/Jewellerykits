@@ -23,8 +23,7 @@ Website Colours: List colour hex codes here for reference
     margin: 0;
     /* font styles for header and paragraph
    border: 2px solid darkgreen;
-   */
-
+    */
 
 }
 
@@ -126,7 +125,7 @@ button{
   background: #FDFEFE;
   display: block;
   margin: auto;
-  transition: color 2s, border 2s; /* color changes gradually */
+  transition: color 0.5s, border 0.5s; /* color changes gradually */
 }
 
 button:hover{
@@ -216,7 +215,7 @@ nav a{
 }
 
 .trendy p{
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Raleway', sans-serif;
   font-size: 22px;
   border-radius: 2%;
   background-color: #FDFEFE;
@@ -224,8 +223,8 @@ nav a{
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 5%;
-  width:78%;
+  padding: 2%;
+  width:100%;
 }
 
 .feminine{
@@ -254,7 +253,6 @@ nav a{
 .shop h2{
   padding:2px;
 }
-
 
 .included{
   padding: 4%;
@@ -298,7 +296,6 @@ background-color: #DB7093;
 .footer{
   font-size: 24px;
 }
-
 
 .legal{
   font-size: 16px;
@@ -421,3 +418,15 @@ color:#ECF0F1;
   margin-right: -7%;
   text-align: center;
 }
+
+<!-- Product Page for one off gifts on site called shop-->
+.products h3{
+  width: 10vw;
+  height: 15vh;
+  background-repeat: no-repeat;
+  margin: 20%;
+  }
+
+  .pimage{
+     width: 70vh;
+  }

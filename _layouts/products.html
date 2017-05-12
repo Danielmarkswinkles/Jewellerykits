@@ -1,0 +1,51 @@
+---
+layout: default
+---
+{% for product in site.products %}
+<a href="{{product.url}}">
+  <div class="pimage" style="background-image:url({{product.image}})">
+
+  </div>
+  <h3>{{product.title}}</h3>
+</a>
+
+{% endfor %}
+
+
+<div class="col-4">
+  <div>
+  <p>Bracelet kit</p>
+  </div>
+</div>
+<div class="col-4">
+  <div>
+  <p> Necklace kit</p>
+  </div>
+</div>
+<div class="col-4">
+  <div>
+  <p> Jewellery Set Kit </p>
+  </div>
+</div>
+<div class="col-4">
+  <div>
+  <p> Mindfulness kit <p>
+  </div>
+<div>
+  <div class="col-4">
+  <p> Mystery kit </p>
+  </div>
+</div>
+</section>
+
+<button
+    class="snipcart-add-item"
+    data-item-id="2"
+    data-item-name="Bacon"
+    data-item-price="3.00"
+    data-item-weight="20"
+    data-item-url="{{page.url}}"
+    data-item-description="Some fresh bacon">
+        Buy
+</button>
+  </section>

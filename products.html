@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<section class="grid products">
+{% for product in site.products %}
+<a class="col-4" href="{{product.url}}">
+  <div>
+   <img class="pimage"src="{{product.image}}" alt="">
+    <p> {{product.title}}</p>
+  </div>
+</a>
+{% endfor %}
+</section>
