@@ -1,14 +1,14 @@
 /*INDEX --------------------
-  - CSS RESET
-  - GENERAL HELPER CLASSES
-  - UNIVERSAL STYLES
-    - Layout
-    - Typography
-    - General Styles
-  - HEADER & FOOTER
-  - MODULAR ELEMENTS
-    - Element Name
-  - FORMS
+- CSS RESET
+- GENERAL HELPER CLASSES
+- UNIVERSAL STYLES
+- Layout
+- Typography
+- General Styles
+- HEADER & FOOTER
+- MODULAR ELEMENTS
+- Element Name
+- FORMS
 
 ---------------------------
 Website Fonts: List fonts here for reference
@@ -17,12 +17,12 @@ Website Colours: List colour hex codes here for reference
 */
 
 * {
-   font-family: 'Raleway', sans-serif;
-   padding: 0;
-   box-sizing: border-box;
-    margin: 0;
-    /* font styles for header and paragraph   */
-    border: 2px solid darkgreen;
+  font-family: 'Raleway', sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  /* font styles for header and paragraph   */
+  border: 2px solid darkgreen;
 }
 
 img{
@@ -31,7 +31,7 @@ img{
 /* font styles for header and paragraph  */
 
 .logo img{
-width: 140px;
+  width: 140px;
 }
 
 Body{
@@ -44,13 +44,13 @@ p{
   font-family: 'Raleway', sans-serif;
   color: #4C4C4C;
   padding: 2%;
-  }
+}
 
 h1{
-font-family: 'Indie Flower', cursive;
-font-size: 32px;
-padding: 2%;
-text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 32px;
+  padding: 2%;
+  text-align: center;
 }
 h2{
   font-family:'Indie Flower', cursive;
@@ -64,7 +64,7 @@ h3{
   text-align: center;
   width: 90%;
   padding: 2%;
-  }
+}
 
 h4{
   font-size: 30px;
@@ -83,7 +83,7 @@ h6{
   font-family:'Indie Flower', cursive;
   font-size: 30px;
   text-align: center;
-  }
+}
 
 .subheading{
   font-size:20px;
@@ -127,13 +127,13 @@ button{
 }
 
 button:hover{
-border: 2px solid #C60657;
-color:#C60657;
+  border: 2px solid #C60657;
+  color:#C60657;
 }
 
 a:hover{
   color:	#FF1493;
-  }
+}
 
 header,footer{
 
@@ -142,7 +142,7 @@ header,footer{
 
 .rightpush{
   padding-left: 10%;
-  }
+}
 
 nav a{
   color: black;
@@ -165,7 +165,7 @@ nav a{
   min-height:90vh;
   width:100%;
   padding: 0 0 91.7px 0;
-  }
+}
 
 .mainimage div{
   background-color: rgba(236, 240,241, 0.5);
@@ -204,12 +204,12 @@ nav a{
 }
 
 .trendy{
-    background-image: url('../img/Chique.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:100%;
-    min-height:30vh;
-    padding:2%;
+  background-image: url('../img/Chique.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  min-height:30vh;
+  padding:2%;
 }
 
 .trendy p{
@@ -288,7 +288,7 @@ label, input{
 }
 
 .submit:hover{
-background-color: #DB7093;
+  background-color: #DB7093;
 }
 
 .footer{
@@ -297,6 +297,7 @@ background-color: #DB7093;
 
 .legal{
   padding: 2%;
+}
 
 .fa{
   padding: 2%;
@@ -305,15 +306,15 @@ background-color: #DB7093;
 
 /* our story section another page  */
 .ourstoryimage{
-background-image: url('../img/bluebeads.jpg');
-background-attachment: fixed;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: 16% 0%;
-justify-content: flex-end;
-min-height:80vh;
-width:100%;
-/*padding: 0 0 91.7px 0;*/
+  background-image: url('../img/bluebeads.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 16% 0%;
+  justify-content: flex-end;
+  min-height:80vh;
+  width:100%;
+  /*padding: 0 0 91.7px 0;*/
 }
 
 .ourstoryimage div{
@@ -325,8 +326,8 @@ width:100%;
   margin-right: 20%;
 
   /*padding: 0 0 91.7px 0
-    rgba(236, 240,241, 0.5);
-    */
+  rgba(236, 240,241, 0.5);
+  */
 }
 
 .ourstoryimage h1{
@@ -336,7 +337,7 @@ width:100%;
 }
 
 .ourstory {
-padding: 2%;
+  padding: 2%;
 }
 
 .ourstory h2{
@@ -382,7 +383,7 @@ padding: 2%;
 .pop:hover{
   background-color: #e36f80;
   color: white;
-  }
+}
 
 .bottondesign{
   text-decoration: none;
@@ -398,11 +399,11 @@ padding: 2%;
 }
 
 .popuptext h2{
-text-align: center;
-font-family: 'Raleway', sans-serif;
-padding: 5%;
-font-size: 20px;
-color:#ECF0F1;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  padding: 5%;
+  font-size: 20px;
+  color:#ECF0F1;
 
 }
 .popuptext p{
@@ -420,32 +421,32 @@ color:#ECF0F1;
   height: 15vh;
   background-repeat: no-repeat;
   margin: 20%;
-  }
+}
 
-  .pimage{
-     width: 60vh;
-  }
+.pimage{
+  width: 60vh;
+}
 
-  .purchasetrends{
-    width: 96vw;
-    height:73vh;
-    margin-top:4%;
-  }
+.purchasetrends{
+  width: 96vw;
+  height:73vh;
+  margin-top:4%;
+}
 
-  .purchasetrends h2{
-    font-size: 24px;
-    font-family: 'Raleway', sans-serif
+.purchasetrends h2{
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif
 }
 
 /*
-  .tjk{
-    width: 60vw;
-    height: 20vh;
-    text-align: left;
+.tjk{
+width: 60vw;
+height: 20vh;
+text-align: left;
 */
 
 
-  }
+}
 .tjk h3{
   font-weight:lighter;
   text-align: left;
@@ -453,12 +454,12 @@ color:#ECF0F1;
 
 
 
-  .purchasepage{
-    width: 100vw;
-    height: 117vh;
-    margin-top: 5%;
-  }
+.purchasepage{
+  width: 100vw;
+  height: 117vh;
+  margin-top: 5%;
+}
 
-  .purchasepage img{
-    width: 100vw;
-  }
+.purchasepage img{
+  width: 100vw;
+}
