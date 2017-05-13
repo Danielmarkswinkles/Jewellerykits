@@ -1,2 +1,7 @@
 collections:
 - products
+
+
+collections:
+  products:
+    output: true

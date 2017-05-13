@@ -428,5 +428,21 @@ color:#ECF0F1;
   }
 
   .pimage{
-     width: 70vh;
+     width: 60vh;
+  }
+
+  .purchasetrends{
+    width: 96vw;
+    height:73vh;
+    margin-top:4%;
+  }
+
+  .purchasetrends h2{
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif
+}
+
+  .tjk{
+    width: 60vw;
+    height: 20vh;
   }
