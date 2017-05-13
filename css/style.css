@@ -21,10 +21,8 @@ Website Colours: List colour hex codes here for reference
    padding: 0;
    box-sizing: border-box;
     margin: 0;
-    /* font styles for header and paragraph
-   border: 2px solid darkgreen;
-    */
-
+    /* font styles for header and paragraph   */
+    border: 2px solid darkgreen;
 }
 
 img{
@@ -298,10 +296,7 @@ background-color: #DB7093;
 }
 
 .legal{
-  font-size: 16px;
-  font-family: 'Raleway', sans-serif;
-  padding: 5%;
-}
+  padding: 2%;
 
 .fa{
   padding: 2%;
@@ -442,12 +437,28 @@ color:#ECF0F1;
     font-family: 'Raleway', sans-serif
 }
 
+/*
   .tjk{
     width: 60vw;
     height: 20vh;
+    text-align: left;
+*/
+
+
   }
+.tjk h3{
+  font-weight:lighter;
+  text-align: left;
+}
+
+
 
   .purchasepage{
-    width: 13vw;
-    height: 120vh;
+    width: 100vw;
+    height: 117vh;
+    margin-top: 5%;
+  }
+
+  .purchasepage img{
+    width: 100vw;
   }
