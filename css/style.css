@@ -21,8 +21,9 @@ Website Colours: List colour hex codes here for reference
   padding: 0;
   box-sizing: border-box;
   margin: 0;
-  /* font styles for header and paragraph   */
+  /* font styles for header and paragraph
   border: 2px solid darkgreen;
+   */
 }
 
 img{
@@ -196,11 +197,11 @@ nav a{
 }
 
 .glam p{
-  text-align:center;
   background-color: white;
   font-family: 'Raleway', sans-serif;
   padding:5%;
-
+  align-items: center;
+  text-align: center;
 }
 
 .trendy{
@@ -208,21 +209,16 @@ nav a{
   background-repeat: no-repeat;
   background-size: cover;
   width:100%;
-  min-height:30vh;
+  min-height:32vh;
   padding:2%;
 }
 
 .trendy p{
   font-family: 'Raleway', sans-serif;
-  font-size: 22px;
-  border-radius: 2%;
   background-color: #FDFEFE;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
-  padding: 2%;
-  width:100%;
+  padding: 5%;
+  align-items: center;
 }
 
 .feminine{
@@ -315,6 +311,11 @@ label, input{
   min-height:80vh;
   width:100%;
   /*padding: 0 0 91.7px 0;*/
+}
+
+.ourstory p{
+  padding: 0%;
+  border: 2px solid #C0C0C0;
 }
 
 .ourstoryimage div{
@@ -435,7 +436,7 @@ label, input{
 
 .purchasetrends h2{
   font-size: 24px;
-  font-family: 'Raleway', sans-serif
+  font-family: 'Raleway', sans-serif;
 }
 
 /*
@@ -452,14 +453,51 @@ text-align: left;
   text-align: left;
 }
 
+.tjk button{
+  padding: 4%;
+  weight: 50%;
+  background-color: #c0577f;
+  background-color: ;
+  border-radius:4%;
+  border-style: none;
+  color: white;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
 
+  .tjk button:hover{
+    background-color: black;
+    color: white;
+  }
+
+  .headline{
+    border-bottom: 5px solid #c0577f;
+  }
 
 .purchasepage{
   width: 100vw;
   height: 117vh;
-  margin-top: 5%;
-}
+  margin-top: 2%;
+  padding: 5%;
+  }
 
 .purchasepage img{
   width: 100vw;
+}
+
+.snip-layout .snip-header{
+  background-color: rgba (187, 62, 146, 0.42);
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.snip-layout .snip-btn--highlight{
+  background-color: black;
+  color: white;
+}
+
+.snip-layout .snip-btn--highlight:hover{
+  background-color: #FF1493;
+  color: white;
 }
