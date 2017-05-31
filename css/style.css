@@ -23,11 +23,14 @@ Website Colours: List colour hex codes here for reference
   margin: 0;
   /* font styles for header and paragraph
   border: 2px solid darkgreen;
-   */
+  */
+
+
 }
 
 img{
   max-width: 100%;
+  pading: 2%;
 }
 /* font styles for header and paragraph  */
 
@@ -175,8 +178,9 @@ nav a{
 }
 
 [class*=grid].course{
-  margin: 5% 7%;
+  margin: 5% 10%;
 }
+
 
 .course p{
   padding: 5%;
@@ -268,11 +272,15 @@ label, input{
   text-align: center;
   margin: 2% auto;
   width: 29.6rem;
+  background-color: #ECF0F1;
+}
+
+.community input{
   border-top: none;
   border-left: none;
   border-right: none;
   border-bottom: solid black;
-  background-color: #ECF0F1;
+
 }
 
 .submit{
@@ -294,6 +302,9 @@ label, input{
 .legal{
   padding: 2%;
   font-size: 12px;
+}
+.legal a{
+  padding: 2%;
 }
 
 .fa{
@@ -440,15 +451,7 @@ label, input{
   font-family: 'Raleway', sans-serif;
 }
 
-/*
-.tjk{
-width: 60vw;
-height: 20vh;
-text-align: left;
-*/
 
-
-}
 .tjk h3{
   font-weight:lighter;
   text-align: left;
@@ -458,7 +461,6 @@ text-align: left;
   padding: 4%;
   weight: 50%;
   background-color: #c0577f;
-  background-color: ;
   border-radius:4%;
   border-style: none;
   color: white;
@@ -501,4 +503,117 @@ text-align: left;
 .snip-layout .snip-btn--highlight:hover{
   background-color: #FF1493;
   color: white;
+}
+
+.contactus{
+  background-image: url('../img/contactus.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 70rem;
+  width: 100%;
+}
+
+.contactus label{
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: cursive;
+  text-align: center;
+  padding-top: 4%;
+}
+
+.contactus h1{
+  font-size: 45px;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+}
+
+.contactus div{
+  background-color: white;
+  width: 56rem;
+  height: 40rem;
+  margin: 5rem 10rem 5rem 10rem;
+}
+
+.left{
+  widht: 30rem;
+  border-radius: 5%;
+}
+
+.left input{
+  background-color: white;
+  border-radius: 3px;
+  border: 2px solid #A9A9A9;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  padding: 0 24px;
+  width: 20rem;
+  display:inline-table;
+  align-items: center;
+  box-sizing: border-box;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.contactus form {
+  height: 33rem;
+  weight: 15rem;
+}
+
+.contactus textarea{
+  width: 49rem;
+  height: 10rem;
+  text-align: center;
+  margin-left: 5%;
+  margin-top: 2%;
+  border: 2px solid #A9A9A9;
+  border-radius: 3px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+.contactus button{
+   text-align: center;
+   font-family: 'Raleway', sans-serif;
+   font-size: 20px;
+   padding: 13px 59px;
+   margin-top: 5%;
+
+   border-radius: 30px;
+   background-color: #E04C6E;
+   border-style: hidden;
+   color: white;
+}
+
+.giftsgalore{
+  background-image: url('../img/contactus.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 16% 0%;
+  width: 80rem;
+  height: 60rem;
+}
+
+.giftsgalore p{
+  background-color: green;
+}
+
+.giftsgalore h1{
+  font-size: 54px;
+}
+
+.mad{
+  background-image: url('../img/contactus.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 16% 0%;
+}
+
+.mad div{
+  color: purple;
+  background-color: pink;
+  text-align: center;
+  width: 20rem;
+  height: 35rem;
 }
