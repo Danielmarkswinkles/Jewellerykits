@@ -29,6 +29,7 @@ Website Colours: List colour hex codes here for reference
 
 img{
   max-width: 100%;
+  heght: auto;
   pading: 2%;
 }
 /* font styles for header and paragraph  */
@@ -190,7 +191,7 @@ nav a{
 }
 
 [class*=grid].included{
-  padding:0% 24%;
+  padding:5% 24%;
   margin:32px;
 }
 
