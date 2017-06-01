@@ -25,7 +25,6 @@ Website Colours: List colour hex codes here for reference
   border: 2px solid darkgreen;
   */
 
-
 }
 
 img{
@@ -186,6 +185,10 @@ nav a{
   padding: 5%;
 }
 
+.jk img{
+  margin-right: 5%;
+}
+
 [class*=grid].included{
   padding:0% 24%;
   margin:32px;
@@ -252,12 +255,16 @@ nav a{
   padding:2px;
 }
 
-.included{
-  padding: 4%;
+.included {
+  padding: 6%;
   text-align: center;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+.inc p{
+  padding: 5%;
 }
 
 /* footer  */
@@ -367,7 +374,7 @@ label, input{
 
 #popup {
   position: fixed;
-  bottom: 0;
+  bottom: 5px;
   width: 45vw;
   height: 55vh;
   background-color: rgba(0,0,0,0.8);
@@ -422,7 +429,7 @@ label, input{
 .popuptext p{
   font-family: 'Raleway', sans-serif;
   color:#ECF0F1;
-  font-size: 16px;
+  font-size: 18px;
   padding: 6%;
   margin-right: -7%;
   text-align: center;
@@ -617,3 +624,32 @@ label, input{
   width: 20rem;
   height: 35rem;
 }
+
+/*responsive */
+
+@media (max-width:800px) {
+  h2 {
+  display: block;
+  font-size: 30px;
+  font-family:'Indie Flower', cursive;
+    }
+  }
+
+  @media (max-width:800px) {
+    h3 {
+    display: block;
+    font-size: 17px;
+    font-family:'Indie Flower', cursive;
+      }
+    }
+
+    /*responsive
+
+    @media (max-width:800px) {
+      .headline {
+      display: block;
+      font-size: 15px;
+      font-family:'Indie Flower', cursive;
+        }
+      }
+*/
