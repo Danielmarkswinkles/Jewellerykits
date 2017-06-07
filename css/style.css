@@ -272,7 +272,7 @@ footer{
   text-align: center;
   background-color: #ECF0F1;
 }
-label, input{
+ input{
   display: block;
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
@@ -539,7 +539,7 @@ label, input{
 /* hide */
 .snip-layout .snip-form_label{
   background-color: white;
-  width: 2vw;
+  width: 4vw;
 }
 
 
