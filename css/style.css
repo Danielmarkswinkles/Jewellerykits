@@ -533,13 +533,12 @@ label, input{
 
 .contact label {
   margin: 5px;
-  width: 5vw;
 }
 
 /* hide */
 .snip-layout .snip-form_label{
   background-color: white;
-  width:5vw;
+  width: 5vw;
 }
 
 
