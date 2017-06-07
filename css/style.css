@@ -530,16 +530,18 @@ label, input{
   padding-top: 4%;
 }
 
-/* hide
+
 .contact label {
   margin: 5px;
+  width: 5vw;
 }
-*/
 
+/* hide
 .snip-layout .snip-form_label{
   background-color: white;
   width:5vw;
 }
+*/
 
 .contactus h1{
   font-size: 45px;
