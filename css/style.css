@@ -532,13 +532,14 @@ label, input{
 
 
 .contact label {
+  background-color: white;
 
 }
 
 /* hide */
 .snip-layout .snip-form_label{
   background-color: white;
-  width: 4vw;
+  width: 2vw;
 }
 
 
