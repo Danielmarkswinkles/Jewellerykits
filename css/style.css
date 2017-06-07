@@ -29,7 +29,6 @@ Website Colours: List colour hex codes here for reference
 
 img{
   max-width: 100%;
-  heght: auto;
   pading: 2%;
 }
 /* font styles for header and paragraph  */
@@ -529,6 +528,14 @@ label, input{
   font-family: cursive;
   text-align: center;
   padding-top: 4%;
+}
+
+.contact label {
+  width: 3.4em;
+}
+
+snip-form_label{
+  background-color: white;
 }
 
 .contactus h1{
