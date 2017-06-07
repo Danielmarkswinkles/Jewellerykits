@@ -531,7 +531,7 @@ label, input{
 }
 
 .contact label {
-  width: 3.4em;
+  margin: 5px;
 }
 
 snip-form_label{
