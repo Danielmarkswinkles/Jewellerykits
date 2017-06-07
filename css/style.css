@@ -534,8 +534,9 @@ label, input{
   margin: 5px;
 }
 
-snip-form_label{
+.snip-layout .snip-form_label{
   background-color: white;
+  width:4vw;
 }
 
 .contactus h1{
