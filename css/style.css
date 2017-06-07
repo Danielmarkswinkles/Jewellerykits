@@ -465,10 +465,10 @@ label, input{
 }
 
 .tjk button{
-  padding: 4%;
+  padding: 2%;
   weight: 50%;
   background-color: #c0577f;
-  border-radius:4%;
+  border-radius: 6%;
   border-style: none;
   color: white;
   font-size: 18px;
@@ -532,7 +532,7 @@ label, input{
 
 
 .contact label {
-  
+
 }
 
 /* hide */
