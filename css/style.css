@@ -640,15 +640,16 @@ footer{
 
 /*responsive */
 
-@media (max-width:375px) {
-  h2 {
+@media (max-width:300px) {
+  h2 button{
   display: block;
   font-size: 30px;
   font-family:'Indie Flower', cursive;
+  padding: 5%;
     }
   }
 
-  @media (max-width:375px) {
+  @media (max-width:300px) {
     h3 {
     display: block;
     font-size: 17px;
