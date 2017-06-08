@@ -640,7 +640,7 @@ footer{
 
 /*responsive */
 
-@media (max-width:300px) {
+@media (max-width:568px) {
   h2 {
   display: block;
   font-size: 20px;
@@ -648,7 +648,7 @@ footer{
     }
   }
 
-  @media (max-width:300px) {
+  @media (max-width:568px) {
     h3 {
     display: block;
     font-size: 17px;
@@ -666,3 +666,7 @@ footer{
         }
       }
 */
+
+.description{
+
+}
