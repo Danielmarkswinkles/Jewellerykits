@@ -657,9 +657,14 @@ footer{
     }
     @media (max-width:568px) {
       .tjk {
-      padding:10px;
+      font-size: 34px;
     }
   }
+  @media (max-width:568px) {
+    footer {
+      font-size: 14px;
+    }
+   }
 
     /*responsive
 
