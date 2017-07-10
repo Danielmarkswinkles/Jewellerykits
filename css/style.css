@@ -279,7 +279,7 @@ footer{
   text-align: center;
   margin: 2% auto;
   width: 29.6rem;
-  background-color: black;
+
 }
 
 .community input{
@@ -663,8 +663,9 @@ footer{
   }
   */
   @media (max-width:568px) {
-    input {
+    footer input {
       font-size: 12px;
+      margin: 10%;
     }
    }
 
