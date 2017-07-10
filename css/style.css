@@ -661,7 +661,7 @@ footer{
     }
   }
   @media (max-width:568px) {
-    footer {
+    input {
       font-size: 14px;
     }
    }
