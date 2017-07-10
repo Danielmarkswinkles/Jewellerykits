@@ -655,11 +655,13 @@ footer{
     font-family:'Indie Flower', cursive;
       }
     }
+    /*responsive
     @media (max-width:568px) {
       .tjk {
       font-size: 34px;
     }
   }
+  */
   @media (max-width:568px) {
     input {
       font-size: 14px;
