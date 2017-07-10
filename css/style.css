@@ -655,6 +655,11 @@ footer{
     font-family:'Indie Flower', cursive;
       }
     }
+    @media (max-width:568px) {
+      .tjk {
+      padding:10px;
+    }
+  }
 
     /*responsive
 
